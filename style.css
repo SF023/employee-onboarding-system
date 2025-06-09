@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,
+      rgba(0, 0, 0, 0.5)50%), url('images/gradient6.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    height: 70px;
+    float: left;
+}
+
+.logo{
+        width: 120px;
+        float: left;
+        margin-top: 22px;
+        margin-left: 30px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    width: 50%;
+    float: right;
+    height: 70px;
+    position: fixed;
+    right: 80px;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 17px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out; 
+}
+
+ul li a:hover{
+    color: orange;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+.heading{
+width: 75%;
+height: 50%;
+text-align: center;
+color: white;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 50px;
+}
+
+.overview{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    padding-left: 125px;
+    width: 80%;
+    text-align: center;
+}
+
+.btn{
+    background-color: rgba(165, 42, 42, 0);
+    font-size: large;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 15px 60px;
+    text-decoration: none;
+    margin-top: 50px;
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #df7e01;
+    transform: scale(1.05);
+}
+
