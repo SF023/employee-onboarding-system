@@ -4,7 +4,7 @@
 
 ###  Features
 - Add new employees with personal and job details
-- View and edit employee profiles
+- View, edit, and delete employee profiles
 
 ## Technologies Used
 - HTML, CSS, JavaScript
