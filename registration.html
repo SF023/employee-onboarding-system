@@ -17,21 +17,20 @@
                 <div class="menu">
                     <ul>
                         <li><a href="index.html">HOME</a></li>
-                        <li><a href="registration.html">REGISTER</a></li>
+                        <li><a href="registration.html">REGISTRATION</a></li>
                         <li><a href="list.php">EMPLOYEES</a></li>
-                        <li><a href="#">Faq</a></li>
                     </ul>
                 </div>
             </div>                           
             <div class="header">
-                <h2>REGISTRATION FORM</h2><br><br>
+                <h2>REGISTRATION FORM</h2>
             </div>
-                <div class="form">
-                    <div>
-                        Full Name <br><input type="text" name="name" placeholder="Enter Name" required id="name"><br><br>
-                        Email <br><input type="email" name="email" placeholder="Enter Email" required id="email"><br><br>
-                        Position <br><input type="text" id="position" name="position" placeholder="Enter Position" required><br><br>
-                        Department <br><select name="department" id="department" required>
+            <div class="form">
+                <div class="form-content">
+                        <label>Full Name</label> <input type="text" name="name" placeholder="Enter Name" required id="name">
+                        <label>Email</label> <input type="email" name="email" placeholder="Enter Email" required id="email">
+                        <label>Position</label> <input type="text" id="position" name="position" placeholder="Enter Position" required>
+                        <label>Department</label> <select name="department" id="department" required>
                             <option disabled selected>Select an option</option>
                             <option value="hr">Human Resource</option>
                             <option value="finance">Finance and Accounting</option>
@@ -42,10 +41,10 @@
                             <option value="customerService">Customer Service</option>
                             <option value="research">Research and Development</option>
                             <option value="legal">Legal</option>
-                        </select> <br><br>
-                    Start Date <br><input type="date" id="startDate" name="startDate" required> <br><br>
+                        </select>
+                    <label>Start Date</label> <br><input type="date" id="startDate" name="startDate" required>
                     <button type="submit" name="enter">REGISTER</button> <!-- Submits the form -->
-                </div>
+            </div>
             </div>    
         </div>
     </form>
