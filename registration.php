@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $stmt->bind_param("sssss", $name, $email, $position, $department, $startDate);
     if ($stmt->execute()){
         echo "Data Inserted Successfully!";
-        header("Location: list.php");
+        /*header("Location: list.php");*/
     } else {
         echo "Error: " . $stmt->error;
     }

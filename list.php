@@ -146,7 +146,6 @@ include 'db.php';
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="registration.html">REGISTER</a></li>
                 <li><a href="list.php">EMPLOYEES</a></li>
-                <li><a href="#">Faq</a></li>
             </ul>
         </div>
         </div>
