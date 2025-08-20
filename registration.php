@@ -11,14 +11,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $department = $_POST['department'];
     $startDate = $_POST['startDate'];
 
-    // Prepare the statements
+    // Prepare the statements 
     $stmt = $conn->prepare("INSERT INTO tbl_employees (name, email, position, department, start_date)
     VALUES (?, ?, ?, ?, ?)");
 
     $stmt->bind_param("sssss", $name, $email, $position, $department, $startDate);
     if ($stmt->execute()){
         echo "Data Inserted Successfully!";
-        /*header("Location: list.php");*/
+        header("Location: employees.php");
     } else {
         echo "Error: " . $stmt->error;
     }
