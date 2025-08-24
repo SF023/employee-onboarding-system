@@ -11,7 +11,7 @@ if (isset($_GET['id'])) {
     if ($stmt->execute()) {
        // echo "<p>Record deleted successfully.</p>";
         echo "<p>Record updated successfully.</p>";
-        header("Location: list.php");
+        header("Location: employees.php");
         exit();
     } else { 
         echo "<p>Error deleting record: " . $stmt->error . "</p>";
