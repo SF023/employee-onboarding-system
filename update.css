@@ -1,0 +1,92 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+.main{
+    width: 100%;
+    height: 99vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,
+    rgba(0, 0, 0, 0.5)50%), url('images/gradient6.jpeg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 30px;
+    color: hsl(0, 0%, 100%);
+}
+
+form {
+    width: 347px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+input {
+    width: 320px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border: 1px solid hsl(0, 0%, 79%);
+}
+ select{
+    width: 326px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    border: 1px solid hsl(0, 0%, 79%);
+ }
+
+label {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    color: hsl(0, 0%, 0%);
+    align-items: left;
+    background-color: hsl(0, 0%, 100%);
+}
+
+button {
+    width: 328px;
+    height: 30px;
+    margin-left: 10px;
+    margin-left: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: 0;
+    background-color: rgba(5, 109, 207, 0.904);
+    color: hsl(0, 0%, 100%);
+    transition: 0.4s ease-in-out;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
