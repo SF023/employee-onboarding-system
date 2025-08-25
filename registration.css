@@ -121,10 +121,6 @@ ul li a:hover{
     /*border: 1px solid rgb(19, 73, 5);*/
 }
 
-.form-input:focus {
-    border: 2px solid red;
-}
-
 input::placeholder{
     font-size: 15px;
     text-align: left;
@@ -139,7 +135,7 @@ input::placeholder{
     border-left: none;
     border-right: none;
     text-align: left;
-    color: hsl(0, 0%, 47%)
+    color: hsl(0, 0%, 0%);
 }
 
 option:disabled { 
