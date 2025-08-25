@@ -1,9 +1,9 @@
  <?php include 'db.php'; ?>
- 
+
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+<head>    
+<meta charset="UTF-8">
     <title>Employees Page</title>
     <link rel="stylesheet" href="employees.css">
 </head>
@@ -16,7 +16,7 @@
         <div class="menu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="registration.html">REGISTER</a></li>
+                <li><a href="registration.html">REGISTRATION</a></li>
                 <li><a href="employees.php">EMPLOYEES</a></li>
             </ul>
         </div>
@@ -31,7 +31,7 @@
         $sql = "SELECT id, name, email, position, department, start_date FROM tbl_employees";
         $result = $conn->query($sql);
 
-        if ($result && $result->num_rows > 0) {
+        if ($result && $result->num_rows > 0) { 
             echo "<table>";
             echo "<tr>
                     <th>ID</th>
