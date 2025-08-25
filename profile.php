@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-// Check if 'id' is provided and valid
+// Check if id is provided and valid 
 if (!isset($_GET['id']) || !is_numeric($_GET['id'])) {
     die("Invalid employee ID.");
 }
@@ -22,6 +22,7 @@ $employee = $result->fetch_assoc();
 $stmt->close();
 $conn->close();
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,7 +40,7 @@ $conn->close();
         <div class="menu">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="registration.html">REGISTER</a></li>
+                <li><a href="registration.html">REGISTRATION</a></li>
                 <li><a href="employees.php">EMPLOYEES</a></li>
             </ul>
         </div>
