@@ -8,7 +8,6 @@ url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100.
     box-sizing: border-box;
 }
     
-
 .main{
     width: 100%;
     height: 99vh;
@@ -20,7 +19,7 @@ url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100.
     padding-bottom: 10px;
 }
 
-.navbar{
+.navbar{ 
     width: 100%;
     height: 40px;
     display:flex;
