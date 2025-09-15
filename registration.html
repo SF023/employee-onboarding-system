@@ -26,21 +26,22 @@
                 <h2>REGISTRATION FORM</h2>
             </div>
             <div class="form">
+                <form id="form">
                 <div class="form-content">
                         <div class="full-name">
                             <label>Full Name</label>
-                            <input type="text" name="name" placeholder="Enter Name" id="name">
-                            <span class="error" id="name_error">This field is required</span>
+                            <input type="text" name="name" placeholder="Enter Name" id="fullName">
+                            <span class="error" id="fullNameError"></span>
                         </div>
                         <div class="email">
                             <label>Email</label>
-                            <input type="email" name="email" placeholder="Enter Email" id="email">
-                            <span class="error" id="email_error"></span>
+                            <input type="text" name="email" placeholder="Enter Email" id="email">
+                            <span class="error" id="emailError"></span>
                         </div>
                         <div class="position">
                             <label>Position</label>
-                            <input type="text" id="position" name="position" placeholder="Enter Position">
-                            <span class="error" id="position_error"></span>
+                            <input type="text" id="position" name="position" placeholder="Enter Position" id="position">
+                            <span class="error" id="positionError"></span>
                         </div>
                         <div class="department">
                             <label>Department</label>
@@ -56,20 +57,21 @@
                             <option value="research">Research and Development</option>
                             <option value="legal">Legal</option>
                         </select>
-                        <span class="error" id="dept_error"></span>
+                        <span class="error" id="departmentError"></span>
                         </div>
                         <div class="start-date">
                             <label>Start Date</label>
                             <input type="date" id="startDate" name="startDate">
-                            <span class="error" id="date_error"></span>
+                            <span class="error" id="startDateError"></span>
                         </div>
                         <div class="btn-register">
-                            <button type="submit" name="enter">REGISTER</button>
+                            <button type="submit" name="enter" id="btnRegister">REGISTER</button>
                         </div>
-            </div>
+                    </div>
+                </form>
             </div>    
         </div>
     </form>
-
+<script src=registration.js></script>
 </body>
 </html>
