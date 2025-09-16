@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="registration.css">
 </head>
 <body>
-    <form method="POST" id="myForm" onsubmit="return validateForm()" action="registration.php">
+    <form method="POST" id="form" onsubmit="return validateForm()" action="registration.php">
         <div class="main">
             <div class="navbar">
                 <div class="icon">
@@ -46,7 +46,7 @@
                         <div class="department">
                             <label>Department</label>
                             <select name="department" id="department">
-                            <option disabled selected>Select an option</option>
+                            <option id="disabledOption" value="" disabled selected>Select an option</option>
                             <option value="hr">Human Resource</option>
                             <option value="finance">Finance and Accounting</option>
                             <option value="marketing">Marketing</option>
@@ -61,7 +61,7 @@
                         </div>
                         <div class="start-date">
                             <label>Start Date</label>
-                            <input type="date" id="startDate" name="startDate">
+                            <input type="date" id="startDate" name="startDate" value="">
                             <span class="error" id="startDateError"></span>
                         </div>
                         <div class="btn-register">
