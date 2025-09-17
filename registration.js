@@ -25,12 +25,12 @@ function validateEmail() {
     const email = emailInput.value.trim();
 
     if (email === "") {
-        emailError.innerText = "This field is required";
+        emailError.innerText = "This field is required!";
         emailInput.style.borderBottom = "1px solid red";
         return false;
     }
     else if (!emailRegex.test(email)) { 
-        emailError.innerText = "Please enter a valid email address";
+        emailError.innerText = "Please enter a valid email address!";
         emailInput.style.borderBottom = "1px solid red";
         return false;
     } else {
@@ -49,7 +49,7 @@ function validateFullName() {
         return false;
     } 
     else if (!fullNameRegex.test(fullNameInput)) {
-        fullNameError.innerText = "Please enter a valid full name";
+        fullNameError.innerText = "Please enter your full name";
         fullName.style.borderBottom = "1px solid red";
         return false;
     } else {
