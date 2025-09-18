@@ -10,7 +10,7 @@ url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100.
     
 .main{
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,
     rgba(0, 0, 0, 0.5)50%), url('images/gradient6.jpeg');
     background-position: center;
@@ -96,7 +96,6 @@ ul li a:hover{
     width: 100%;
     height: auto;
     margin-bottom: 20px;
-    /*border: 1px solid yellow;*/
 }
 
 .form-content{
@@ -116,17 +115,13 @@ label {
 }
 
 .full-name {
-    /*border: 1px solid red;*/
     display: flex;
     flex-direction: column;
-    /*margin-bottom: 5px;*/
 }
 
 .email {
-    /*border: 1px solid green;*/
     display: flex;
     flex-direction: column;
-    /*margin-bottom: 5px;*/
 }
 
 .position {
